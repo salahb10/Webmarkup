@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+@media screen and (min-width: 960px)
+{
+
+
+body
+{
+	background-color:#F5F5F5;
+	width:960px;
+	margin:auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0
+  padding: 0;
+  overflow: hidden;
+  background-color:  #2699FB;
+}
+
+li{
+  float: left;
+  position: relative;
+  left:100px;
+  
+ 
+}
+ li a:hover 
+  {
+  background-color: #AAAAAA;
+ 
+  }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size:1.75em;
+  
+
+  
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index:-100;
+}
+h1
+{
+	text-align:center;
+	font-family:  'ZCOOL XiaoWei', serif;
+	font-size:3em;
+	color:#8b8b00
+}
+h2
+{
+	text-align:center;
+	font-family: georgia;
+	font-size:2em;
+	color:#444444
+}
+h3
+{
+	font-family:georgia;
+	text-align: center;
+	font-size:1.75em;
+	color:#707070;
+
+
+}
+p 
+{
+	font-family:candara;
+	font-size:1em;
+	text-align: center;
+}
+#sectionhaarlem,#sports
+{
+	text-align: center;
+	background-color:#F5F5F5;
+	
+	
+}
+#sectionparkwijk
+{
+	text-align:center;
+	width: 960px;
+    margin : auto;
+	background-color:#F5F5F5;
+	
+}
+#jiujutsu
+{
+	text-align:center;
+	width:960px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+
+}
+#imggrootePC
+{
+	text-align:center;
+	width: 960px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+	
+}
+#Haarlem
+{
+	width: 960px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+	
+}
+.organistaion
+{
+	text-align:center;
+	width: 960px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+	
+	
+}
+#imgclub
+{
+	text-align:center;
+	width: 200px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+	
+	
+}
+#sizelink
+{
+	font-size:1.5em;
+	font-family:arial;
+	background-color:#F5F5F5;
+	display:inline block;
+	
+}
+.burger-menu
+{
+	display:none;
+}
+.copyright
+{
+	position:relative;
+	left:420px
+}
+.cookie
+{
+	
+  background-color:yellow;
+
+  border-style: solid;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  padding: 1em;
+
+}
+#imggrooteMobile
+{
+	size:200px;
+}
+#imggrootetablet
+{
+	size:400px
+}
+#sectioncontact
+{
+	background-color:#F5F5F5;
+		font-family:georgia;
+}
+#imggrooteMobile,#imggrootetablet
+{
+	display:none;
+}
+
+}
+
+
+@media screen and (max-width : 399px)
+{
+	body
+{
+	background-color:#F5F5F5;
+    width: 399px;
+	margin:auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #2699FB;
+}
+
+li{
+  float: left;
+  position: relative;
+  left:100px;
+  
+ 
+}
+ li a:hover 
+  {
+  background-color: #AAAAAA;
+ 
+  }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size:1.75em; 
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+.standard-form
+{
+	display:none;
+}
+.burger-shower {
+  display: none;
+}
+
+.burger-shower:checked ~ .burger-menu {
+  display: block;
+}
+
+.hamburger {
+  display:block;
+  width: 3.4em;
+  height: 2.4em;
+  line-height: .1em;
+  border: .1em solid #ddd;
+  padding: 0 .4em .4em;
+
+}
+
+.hamburger hr {
+  color: #ddd;
+  height: .1em;
+  border: 0;
+
+  
+}
+
+.burger-menu {
+   display:none;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index:-100;
+}
+h1
+{
+	text-align:center;
+	font-family:  'ZCOOL XiaoWei', serif;
+	
+	color:#8b8b00
+}
+h2
+{
+	text-align:center;
+	font-family: georgia;
+	font-size:2em;
+	color:#444444
+}
+h3
+{
+	font-family:georgia;
+	text-align: center;
+	font-size:1.75em;
+	color:#707070;
+
+
+}
+p 
+{
+	font-family:candara;
+	font-size:1em;
+	text-align: center;
+}
+#sectionhaarlem,#sports
+{
+	text-align: center;
+	background-color:#F5F5F5;
+	
+	
+}
+#sectionparkwijk
+{
+	text-align:center;
+	width:  399px;
+    margin : auto;
+	background-color:#F5F5F5;
+	
+}
+#jiujutsu
+{
+	text-align:center;
+	width:399px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+
+}
+#imggrootePC
+{
+	text-align:center;
+	width: 399px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+	
+}
+#Haarlem
+{
+	width: 399px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+	
+}
+.organistaion
+{
+	text-align:center;
+	width: 399px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+	
+	
+}
+#imgclub
+{
+	text-align:center;
+	width: 200px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+	
+	
+}
+#sizelink
+{
+	font-size:1.5em;
+	font-family:arial;
+	background-color:#F5F5F5;
+	display:inline block;
+	
+}
+.copyright
+{
+	position:relative;
+	left:230px
+}
+.cookie
+{
+	
+  background-color:yellow;
+
+  border-style: solid;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  padding: 1em;
+
+}
+#imggrooteMobile
+{
+	size:50x;
+}
+#imggrootetablet
+{
+	size:150px
+}
+#sectioncontact
+{
+	background-color:#F5F5F5;
+		font-family:georgia;
+}
+#imggrootetablet,#imggrootePC
+{
+	display:none;
+}
+
+}
+@media screen and (min-width : 400px) and (max-width : 959px)
+{
+	body
+{
+	background-color:#F5F5F5;
+    min-width: 400px;
+    max-width: 959px;
+	margin:auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #2699FB;
+}
+
+li{
+  float: left;
+  position: relative;
+  left:100px;
+  
+ 
+}
+ li a:hover 
+  {
+  background-color: #AAAAAA;
+ 
+  }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size:1.75em;
+  
+
+  
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index:-100;
+}
+h1
+{
+	text-align:center;
+	font-family:  'ZCOOL XiaoWei', serif;
+	font-size:3em;
+	color:#8b8b00
+}
+h2
+{
+	text-align:center;
+	font-family: georgia;
+	font-size:2em;
+	color:#444444
+}
+h3
+{
+	font-family:georgia;
+	text-align: center;
+	font-size:1.75em;
+	color:#707070;
+
+
+}
+p 
+{
+	font-family:candara;
+	font-size:1em;
+	text-align: center;
+}
+#sectionhaarlem,#sports
+{
+	text-align: center;
+	background-color:#F5F5F5;
+	
+	
+}
+#sectionparkwijk
+{
+	text-align:center;
+	min-width: 400px;
+    max-width: 959px;
+    margin : auto;
+	background-color:#F5F5F5;
+	
+}
+#jiujutsu
+{
+	text-align:center;
+	min-width: 400px;
+    max-width: 959px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+
+}
+#imggrootePC
+{
+	text-align:center;
+	min-width: 400px;
+    max-width: 959px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+	
+}
+#Haarlem
+{
+	min-width: 400px;
+    max-width: 959px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+	
+}
+.organistaion
+{
+	text-align:center;
+	min-width: 400px;
+    max-width: 959px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+	
+	
+}
+.burger-menu
+{
+	display:none;
+}
+#imgclub
+{
+	text-align:center;
+	width: 200px;
+    margin : 0 auto;
+	background-color:#F5F5F5;
+	
+	
+}
+#sizelink
+{
+	font-size:1.5em;
+	font-family:arial;
+	background-color:#F5F5F5;
+	display:inline block;
+	
+}
+.copyright
+{
+	position:relative;
+	left:230px
+}
+.cookie
+{
+	
+  background-color:yellow;
+
+  border-style: solid;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  padding: 1em;
+
+}
+#imggrooteMobile
+{
+	size:50x;
+}
+#imggrootetablet
+{
+	size:150px
+}
+#sectioncontact
+{
+	background-color:#F5F5F5;
+		font-family:georgia;
+}
+#imggrootePC,#imggrooteMobile
+{
+	display:none;
+}
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
